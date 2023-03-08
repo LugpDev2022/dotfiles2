@@ -3,17 +3,7 @@ export QT_STYLE_OVERRIDE=kvantum
 
 # Composer
 picom &
-# Network
-nm-applet &
 # Keyboard Layout
 setxkbmap latam &
-# Automount Devices
-udiskie -t &
-# Wallpaper
-feh --bg-scale ~/Wallpapers/04.png &
 # Autolock screen
 xautolock -detectsleep -time 10 -locker "i3lock-fancy" &
-# systray battery icon
-cbatticon -u 5 &
-# systray volume
-volumeicon &
