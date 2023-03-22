@@ -15,3 +15,5 @@
 # If you want to use XFCE config tools...
 #
 #xfce-mcs-manager &
+
+feh --bg-scale ~/Wallpapers/04.png 
