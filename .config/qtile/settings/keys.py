@@ -43,7 +43,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod, "control"], "q", lazy.shutdown()),
 
     # Lockscreen
-    ([mod, "control"], "l", lazy.spawn('i3lock-fancy')),
+    ([mod, "control"], "l", lazy.spawn('dm-tool lock')),
 
     # ------------ App Configs ------------
 
