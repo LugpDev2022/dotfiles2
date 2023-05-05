@@ -60,7 +60,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod], "b", lazy.spawn("firefox-developer-edition")),
 
     # File Explorer
-    ([mod], "f", lazy.spawn("pcmanfm")),
+    ([mod], "f", lazy.spawn("thunar")),
 
     # Terminal
     ([mod], "Return", lazy.spawn("kitty")),
