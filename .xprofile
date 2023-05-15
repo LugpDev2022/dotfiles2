@@ -6,4 +6,4 @@ picom &
 # Keyboard Layout
 setxkbmap latam &
 # Autolock screen
-xautolock -detectsleep -time 10 -locker "i3lock-fancy" &
+dm-tool lock &
