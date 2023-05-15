@@ -27,9 +27,9 @@ def icon(fg='text', bg='dark', fontsize=16, text="?"):
 def powerline(fg="light", bg="dark"):
     return widget.TextBox(
         **base(fg, bg),
-        text="",  # Icon: nf-oct-triangle_left
-        fontsize=55,
-        padding=-7.5
+        text="",  # Icon: nf-cod-triangle_left
+        fontsize=40,
+        padding=0
     )
 
 
@@ -120,7 +120,6 @@ secondary_widgets = [
 
     widget.Clock(**base(bg='color2'), format='%d/%m/%Y - %H:%M '),
 
-    powerline('dark', 'color2'),
 ]
 
 widget_defaults = {
