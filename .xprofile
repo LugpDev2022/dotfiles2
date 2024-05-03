@@ -6,4 +6,6 @@ picom &
 # Keyboard Layout
 setxkbmap latam &
 # Autolock screen
-dm-tool lock &
+xss-lock dm-tool lock &
+# Screen config
+./.screenlayout/one.sh &

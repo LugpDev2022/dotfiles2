@@ -16,4 +16,5 @@
 #
 #xfce-mcs-manager &
 
-feh --bg-scale ~/Wallpapers/04.png 
+feh --bg-scale ~/Wallpapers/02.jpg &
+~/.config/polybar/launch.sh &
