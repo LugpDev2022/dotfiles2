@@ -121,6 +121,7 @@ alias ls='lsd --group-dirs=first'
 alias cat='bat'
 alias two-monitors='~/.screenlayout/two.sh'
 alias one-monitor='~/.screenlayout/one.sh'
+alias dev-mode='~/bin/dev-mode.sh'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
